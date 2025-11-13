@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 
 export default function Capabilities() {
-  
   const items = [
     {
       title: "AI-Driven Autonomous Navigation",
@@ -24,25 +23,32 @@ export default function Capabilities() {
   ];
 
   return (
-    <section id="capabilities" className="py-24 max-w-7xl mx-auto px-6">
-      <h2 className="text-3xl font-bold text-white mb-10">Capabilities</h2>
+    <section id="capabilities" className="pt-12 pb-10 max-w-7xl mx-auto px-6">
+      <h2 className="text-3xl font-bold text-white mb-8">Capabilities</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {items.map((item, index) => (
           <motion.div
             key={index}
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-[#111418] border border-gray-800 rounded-xl p-6 shadow-lg
-                       transition duration-300 hover:-translate-y-1 hover:scale-[1.03]"
+            transition={{ duration: 0.45, delay: index * 0.08 }}
+            className="h-full bg-[#111418] border border-gray-800 rounded-xl p-6 shadow-lg
+                       transition duration-300 hover:-translate-y-1 hover:scale-[1.03] flex flex-col"
           >
-            <h3 className="text-xl font-semibold text-white mb-3">
-              {item.title}
-            </h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              {item.desc}
-            </p>
+            <div className="flex-1">
+              <h3 className="text-xl font-semibold text-white mb-3 leading-tight">
+                {item.title}
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
+
+            {/* If later you add a CTA, it will sit at the bottom */}
+            <div className="mt-6">
+              {/* optional small footer area - keep empty or add icon/button */}
+            </div>
           </motion.div>
         ))}
       </div>

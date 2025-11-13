@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 VyomGarud – UAV Landing Page  
+### Next.js • Tailwind CSS • Framer Motion • Responsive • Military-Grade UI
 
-## Getting Started
+A modern, high-performance landing page created for **VyomGarud**, a UAV & autonomous drone systems company.  
+Designed with a **dark, futuristic, military-grade** aesthetic emphasizing precision engineering, mission reliability, and advanced autonomy.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔥 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🛫 **Hero Section**
+- Bold UAV hero image  
+- Precision engineering messaging  
+- Strong dual CTA buttons  
+- Smooth animations  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📘 **About Section**
+- Professional mission statement  
+- Military/Defense-oriented tone  
+- Clean modern layout  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛰️ **Capabilities Section**
+- 4 UAV-oriented capability cards  
+- AI Navigation, Secure Telemetry, Payloads, Endurance  
+- Framer Motion reveal animations  
+- Interactive hover effects  
 
-## Learn More
+### ⭐ **Highlights Section**
+- 3 key strategic highlights  
+- Premium defense-grade wording  
+- Responsive grid layout  
 
-To learn more about Next.js, take a look at the following resources:
+### 📨 **Contact / Footer**
+- Professional contact form  
+- Mission-aligned company information  
+- Clean dark footer design  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✨ **Animations**
+- Section reveal animations  
+- Smooth hover interactions  
+- Motion-based transitions  
+- Global reusable animation component  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Technology | Purpose |
+|-----------|----------|
+| **Next.js 14 (App Router)** | Routing, rendering, optimized performance |
+| **React** | Component-based UI |
+| **Tailwind CSS** | Modern, utility-first styling |
+| **Framer Motion** | Premium animations |
+| **Google Fonts (Poppins/Inter)** | Clean, modern typography |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Folder Structure
+

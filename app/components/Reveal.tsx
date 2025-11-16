@@ -2,13 +2,12 @@
 
 import { motion } from "framer-motion";
 
-export default function Reveal({
-  children,
-  delay = 0,
-}: {
+type RevealProps = {
   children: React.ReactNode;
   delay?: number;
-}) {
+};
+
+export default function Reveal({ children, delay = 0 }: RevealProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
